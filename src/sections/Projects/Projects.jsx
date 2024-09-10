@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import nived from '../../assets/nivedv.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import nived from "../../assets/nivedv.png";
+import urbanity from "../../assets/urbanity.png";
+import robo from "../../assets/robo.png";
+import quiz from "../../assets/quiz.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -17,16 +17,22 @@ function Projects() {
           p="Portfolio (LIVE)"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={urbanity}
+          link="https://urbanityclothing.netlify.app/"
+          h3="Urbanity Clothing"
+          p="Online Clothing Store"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={robo}
+          link="https://yadukdev.github.io/Robo-Friends/"
+          h3="Robo Friendzz"
+          p="Dynamic Search App"
+        />
+        <ProjectCard
+          src={quiz}
+          link="https://yadukdev.github.io/vue-quizapp/"
+          h3="Quiz App"
+          p="Simple VueJs Quiz App"
         />
       </div>
     </section>
